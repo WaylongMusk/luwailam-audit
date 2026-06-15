@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Lu | 獨立審計及鑑證服務 | 香港</title>
+    <meta name="description" content="William Lu 提供專業獨立審計、合規審查及風險管理服務。">
+    <style>
+        :root {
+            --primary: #0a3d62;
+            --accent: #3498db;
+        }
+        * { box-sizing: border-box; margin:0; padding:0; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo { font-size: 1.8rem; font-weight: bold; }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+        .hero {
+            background: linear-gradient(rgba(10,61,98,0.85), rgba(10,61,98,0.85)), url('https://picsum.photos/id/1015/1920/800') center/cover;
+            color: white;
+            text-align: center;
+            padding: 180px 20px 120px;
+        }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.3rem; max-width: 800px; margin: 0 auto 2rem; }
+        .cta-button {
+            background: var(--accent);
+            color: white;
+            padding: 14px 36px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            text-align: center;
+            font-size: 2.4rem;
+            margin-bottom: 3rem;
+            color: var(--primary);
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+        }
+        .card:hover { transform: translateY(-8px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+        .card h3 { color: var(--primary); margin-bottom: 15px; }
+        .about { background: #f8f9fa; }
+        .contact-form {
+            max-width: 700px;
+            margin: 40px auto;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        footer {
+            background: #1a252f;
+            color: #ddd;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        @media (max-width: 768px) {
+            .nav-links a { margin-left: 1rem; font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">William Lu</div>
+            <div class="nav-links">
+                <a href="#services">服務</a>
+                <a href="#about">關於我</a>
+                <a href="#contact">聯絡我們</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>獨立審計及鑑證服務</h1>
+        <p>專業 • 獨立 • 可靠</p>
+        <p>為香港企業提供高質素的審計安排、合規審查及風險管理服務</p>
+        <a href="#contact" class="cta-button">立即查詢 / 免費諮詢</a>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+        <h2>專業服務</h2>
+        <div class="services-grid">
+            <div class="card">
+                <h3>審計安排 (Audit Arrangement)</h3>
+                <p>為有限公司提供獨立審計服務，確保財務報告準確、合規及透明。</p>
+            </div>
+            <div class="card">
+                <h3>合規審查 (Compliance Review)</h3>
+                <p>公司治理、內部控制審查及香港法規合規評估。</p>
+            </div>
+            <div class="card">
+                <h3>風險管理審計 (Risk Management Audit)</h3>
+                <p>全面風險評估及改善建議，降低營運及財務風險。</p>
+            </div>
+            <div class="card">
+                <h3>其他專業服務 (Other Services)</h3>
+                <p>財務盡職調查、特別審計及會計準則諮詢。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+        <h2>關於 William Lu</h2>
+        <div style="max-width:800px; margin:0 auto; text-align:center; font-size:1.1rem;">
+            <p>William Lu 是一位經驗豐富的獨立審計師，擁有專業資格及多年審計及鑑證服務經驗。</p>
+            <p>我致力為香港企業提供獨立、專業的審計解決方案，幫助客戶符合監管要求並加強內部控制，讓您專注業務發展。</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>聯絡我們</h2>
+        <div class="contact-form">
+            <p style="text-align: center; margin-bottom: 30px;">請填寫以下表格，我們會盡快回覆。</p>
+            
+            <!-- Google Form Embedded -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1y54wBX_3nRfZxauehblR8Kzgbebuao-eDzYBN3q5WJSuwQ/viewform?embedded=true" 
+                    width="100%" 
+                    height="800" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0">
+                正在載入…
+            </iframe>
+
+            <p style="text-align:center; margin-top:40px;">
+                📧 <strong><a href="mailto:william.lu@luwailamcpa.com">william.lu@luwailamcpa.com</a></strong><br>
+                📍 香港
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 William Lu Independent Audit Services. All Rights Reserved. Hong Kong.</p>
+        <p>專業 • 獨立 • 保密</p>
+    </footer>
+
+</body>
+</html>
